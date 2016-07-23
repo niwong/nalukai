@@ -1,0 +1,73 @@
+/* Mobile first */
+.title-bar {
+  background: white;
+  border-bottom: 2px solid #1e364a;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif; }
+
+.menu-icon {
+  float: right;
+  margin: 10px 0px;
+  background: black;
+  width: 35px;
+  height: 21px; }
+
+.menu > li {
+  text-align: right; }
+
+.top-bar {
+  background: white; }
+  .top-bar .top-bar-left a {
+    color: black;
+    font-family: "Montserrat", sans-serif; }
+  .top-bar .top-bar-right a {
+    color: black;
+    font-family: "Montserrat", sans-serif; }
+  .top-bar ul {
+    background: white; }
+
+.logo {
+  width: 115px;
+  height: 80px;
+  border-radius: 100%;
+  position: absolute;
+  background-image: url("../img/nalukaiLogo.png");
+  background-size: 115px 80px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: teal;
+  color: white; }
+  footer .contactCont {
+    margin-top: 20px;
+    margin-left: 20px; }
+    footer .contactCont h1 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px; }
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .top-bar {
+    height: 120px; }
+    .top-bar .top-bar-left {
+      position: relative;
+      top: 50%;
+      transform: translate(0%, -50%);
+      left: 20%; }
+    .top-bar .top-bar-right {
+      position: relative;
+      top: 50%;
+      transform: translate(0%, -50%);
+      right: 20%; }
+    .top-bar .logo {
+      width: 145px;
+      height: 110px;
+      background-size: 145px 110px;
+      left: 50%;
+      transform: translate(-50%, 0%); } }
+/* Medium only */
+/* Large and up */
+/* Large only */
