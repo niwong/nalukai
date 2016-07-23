@@ -59,25 +59,20 @@ $primary-font: 'Montserrat', sans-serif;
 		@include logo(115px, 80px);
 	}
 
+
 	.page-wrap {
 		min-height: 100%;
 		// margin-bottom: -195px;
-
-		.headshotRow {
-
-			margin-bottom: 20px;
-
-			/* headshots */
-			.headshotCont {
-				border: 1px solid red;
-				background: url('../img/charmander.png');
-			}
-		}
 	}
 
 	.page-wrap:after {
   		content: "";
   		display: block;
+	}
+
+	/* headshots */
+	.headshotCont {
+		border: 1px solid red;
 	}
 
 	/* footer */

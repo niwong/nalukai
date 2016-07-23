@@ -37,16 +37,14 @@
 
 .page-wrap {
   min-height: 100%; }
-  .page-wrap .headshotRow {
-    margin-bottom: 20px;
-    /* headshots */ }
-    .page-wrap .headshotRow .headshotCont {
-      border: 1px solid red;
-      background: url("../img/charmander.png"); }
 
 .page-wrap:after {
   content: "";
   display: block; }
+
+/* headshots */
+.headshotCont {
+  border: 1px solid red; }
 
 /* footer */
 footer, .page-wrap:after {
