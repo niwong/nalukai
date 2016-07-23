@@ -2,7 +2,8 @@
 .title-bar {
   background: white;
   border-bottom: 2px solid #1e364a;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif; }
 
 .menu-icon {
   float: right;
@@ -20,10 +21,12 @@
     background: white; }
 
 .top-bar-left a {
-  color: black; }
+  color: black;
+  font-family: "Montserrat", sans-serif; }
 
 .top-bar-right a {
-  color: black; }
+  color: black;
+  font-family: "Montserrat", sans-serif; }
 
 .logo {
   width: 115px;
@@ -32,6 +35,34 @@
   position: absolute;
   background-image: url("../img/nalukaiLogo.png");
   background-size: 115px 80px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: teal;
+  color: white; }
+  footer .contactCont {
+    margin-top: 20px;
+    margin-left: 20px; }
+    footer .contactCont h1 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px; }
+  footer .hexTop {
+    width: 0px;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent; }
+  footer .hexMid {
+    width: 104px;
+    height: 60px;
+    background-color: #6C6; }
+  footer .hexBot {
+    width: 0px;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
