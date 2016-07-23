@@ -1,4 +1,5 @@
 /* Mobile first */
+/* nav */
 .title-bar {
   background: white;
   border-bottom: 2px solid #1e364a;
@@ -34,6 +35,7 @@
   position: absolute;
   background-image: url("../img/nalukaiLogo.png"); }
 
+/* footer */
 footer {
   position: absolute;
   bottom: 0;
@@ -50,6 +52,7 @@ footer {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+  /* nav */
   .top-bar {
     height: 120px; }
     .top-bar .top-bar-left {
