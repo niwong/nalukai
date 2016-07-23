@@ -3951,6 +3951,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/charmander.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92528,
+		"inputAbbreviatedPath": "\/img\/charmander.png",
+		"outputAbbreviatedPath": "\/img\/charmander.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/nalukaiLogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
