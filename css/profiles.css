@@ -29,10 +29,10 @@
 .logo {
   width: 115px;
   height: 80px;
+  background-size: 115px 80px;
   border-radius: 100%;
   position: absolute;
-  background-image: url("../img/nalukaiLogo.png");
-  background-size: 115px 80px; }
+  background-image: url("../img/nalukaiLogo.png"); }
 
 footer {
   position: absolute;
@@ -66,6 +66,9 @@ footer {
       width: 145px;
       height: 110px;
       background-size: 145px 110px;
+      border-radius: 100%;
+      position: absolute;
+      background-image: url("../img/nalukaiLogo.png");
       left: 50%;
       transform: translate(-50%, 0%); } }
 /* Medium only */

@@ -17,24 +17,22 @@
 
 .top-bar {
   background: white; }
+  .top-bar .top-bar-left a {
+    color: black;
+    font-family: "Montserrat", sans-serif; }
+  .top-bar .top-bar-right a {
+    color: black;
+    font-family: "Montserrat", sans-serif; }
   .top-bar ul {
     background: white; }
-
-.top-bar-left a {
-  color: black;
-  font-family: "Montserrat", sans-serif; }
-
-.top-bar-right a {
-  color: black;
-  font-family: "Montserrat", sans-serif; }
 
 .logo {
   width: 115px;
   height: 80px;
+  background-size: 115px 80px;
   border-radius: 100%;
   position: absolute;
-  background-image: url("../img/nalukaiLogo.png");
-  background-size: 115px 80px; }
+  background-image: url("../img/nalukaiLogo.png"); }
 
 footer {
   position: absolute;
@@ -49,20 +47,6 @@ footer {
     footer .contactCont h1 {
       font-family: "Montserrat", sans-serif;
       font-size: 32px; }
-  footer .hexTop {
-    width: 0px;
-    border-bottom: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent; }
-  footer .hexMid {
-    width: 104px;
-    height: 60px;
-    background-color: #6C6; }
-  footer .hexBot {
-    width: 0px;
-    border-top: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
@@ -82,6 +66,9 @@ footer {
       width: 145px;
       height: 110px;
       background-size: 145px 110px;
+      border-radius: 100%;
+      position: absolute;
+      background-image: url("../img/nalukaiLogo.png");
       left: 50%;
       transform: translate(-50%, 0%); } }
 /* Medium only */

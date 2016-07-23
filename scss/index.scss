@@ -2,6 +2,15 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color: #1e364a;
 $primary-font: 'Montserrat', sans-serif;
 
+@mixin logo($logo-width, $logo-height) {
+		width: $logo-width;
+		height: $logo-height;
+		background-size: $logo-width $logo-height;
+		border-radius: 100%;
+		position: absolute;
+		background-image: url('../img/nalukaiLogo.png');
+}
+
 /* Mobile first */
 	.title-bar {
 		background:	white;
@@ -25,32 +34,29 @@ $primary-font: 'Montserrat', sans-serif;
 	.top-bar {
 		background: white;
 
+		.top-bar-left {
+			a {
+				color: black;
+				font-family: $primary-font;
+			}
+		}
+
+		.top-bar-right {
+			a {
+				color: black;
+				font-family:  $primary-font;
+			}
+		}
+
 		ul {
 			background: white;
 		}
 	}
 
-	.top-bar-left {
-		a {
-			color: black;
-			font-family: $primary-font;
-		}
-	}
-
-	.top-bar-right {
-		a {
-			color: black;
-			font-family:  $primary-font;
-		}
-	}
-
 	.logo {
-		width: 115px;
-		height: 80px;
-		border-radius: 100%;
-		position: absolute;
-		background-image: url('../img/nalukaiLogo.png');
-		background-size: 115px 80px;
+
+		@include logo(115px, 80px);
+		
 	}
 
 	footer {
@@ -62,7 +68,6 @@ $primary-font: 'Montserrat', sans-serif;
 		color: white;
 
 		.contactCont {
-
 			margin-top: 20px;
 			margin-left: 20px;
 
@@ -73,23 +78,27 @@ $primary-font: 'Montserrat', sans-serif;
 
 		}
 
-		.hexTop {
-			width: 0px;
-			border-bottom: 30px solid #6C6;
-			border-left: 52px solid transparent;
-			border-right: 52px solid transparent;
-		}
-		.hexMid {
-			width: 104px;
-			height: 60px;
-			background-color: #6C6;
-		}
-		.hexBot {
-			width: 0px;
-			border-top: 30px solid #6C6;
-			border-left: 52px solid transparent;
-			border-right: 52px solid transparent;
-		}
+		// .hex {
+
+		// 	.hexRight {
+		// 		width: 0px;
+		// 		border-left: 40px solid #6C6;
+		// 		border-top: 112px solid transparent;
+		// 		border-bottom: 112px solid transparent;
+		// 	}
+		// 	.hexMid {
+		// 		width: 240px;
+		// 		height: 112px;
+		// 		background-color: #6C6;
+		// 	}
+		// 	.hexLeft {
+		// 		width: 0px;
+		// 		border-right: 40px solid #6C6;
+		// 		border-top: 112px solid transparent;
+		// 		border-bottom: 112px solid transparent;
+		// 	}
+		// }
+
 	}
 
 /* Medium and up */
@@ -113,9 +122,8 @@ $primary-font: 'Montserrat', sans-serif;
 		}
 
 		.logo {
-			width: 145px;
-			height: 110px;	
-			background-size: 145px 110px;
+
+			@include logo(145px, 110px);
 			left: 50%;
 			transform: translate(-50%, 0%);
 		}
