@@ -55,6 +55,7 @@
     max-width: initial; }
 
   .page-wrap .missionRow {
+    margin-bottom: -180px;
     margin-top: 40px;
     width: 90%; }
     .page-wrap .missionRow .mission {
@@ -86,8 +87,5 @@
         letter-spacing: 2.5px;
         font-size: 14px; } }
 /* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  .page-wrap {
-    margin-bottom: -180px; } }
 /* Large and up */
 /* Large only */
