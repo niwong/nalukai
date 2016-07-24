@@ -36,13 +36,13 @@
   background-image: url("../img/nalukaiLogo.png"); }
 
 .page-wrap {
-  min-height: 100%; }
+  min-height: 100%;
+  margin-bottom: -195px; }
   .page-wrap .headshotRow {
     margin-bottom: 20px;
     /* headshots */ }
     .page-wrap .headshotRow .headshotCont {
-      border: 1px solid red;
-      background: url("../img/charmander.png"); }
+      border: 1px solid red; }
 
 .page-wrap:after {
   content: "";
@@ -50,7 +50,7 @@
 
 /* footer */
 footer, .page-wrap:after {
-  height: 142px; }
+  height: 195px; }
 
 footer {
   width: 100%;

@@ -61,7 +61,7 @@ $primary-font: 'Montserrat', sans-serif;
 
 	.page-wrap {
 		min-height: 100%;
-		// margin-bottom: -195px;
+		margin-bottom: -195px;
 
 		.headshotRow {
 
@@ -70,7 +70,6 @@ $primary-font: 'Montserrat', sans-serif;
 			/* headshots */
 			.headshotCont {
 				border: 1px solid red;
-				background: url('../img/charmander.png');
 			}
 		}
 	}
@@ -82,7 +81,7 @@ $primary-font: 'Montserrat', sans-serif;
 
 	/* footer */
 	footer, .page-wrap:after {
-	 	height: 142px; 
+	 	height: 195px; 
 	}
 
 	footer {
