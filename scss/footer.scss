@@ -6,12 +6,12 @@ $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Avenir', sans-serif;
 
 @mixin logo($logo-width, $logo-height) {
-		width: $logo-width;
-		height: $logo-height;
-		background-size: $logo-width $logo-height;
-		border-radius: 100%;
-		position: absolute;
-		background-image: url('../img/nalukaiLogo.png');
+	width: $logo-width;
+	height: $logo-height;
+	background-size: $logo-width $logo-height;
+	border-radius: 100%;
+	position: absolute;
+	background-image: url('../img/nalukaiLogo.png');
 }
 
 @font-face {
@@ -19,142 +19,147 @@ $secondary-font: 'Avenir', sans-serif;
     src: url("../res/Avenir.ttf") format("truetype");
 }
 
-/* footer */
-footer, .page-wrap:after {
- 	height: 180px; 
-}
+.footer {
+  background-color: $primary-color;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  color: white;
 
-footer {
-	width: 100%;
-	height: auto;
-	background-color: $primary-color;
-	color: white;
-
-	.contactCont {
-		width: 100%;
-		margin-top: 20px;
-		padding-left: 30px;
-
-		margin-bottom: 20px;
-		padding-right: 0px;
+	.contact {
 
 		h1 {
+			text-align: left;
 			font-family: $primary-font;
 			text-transform: uppercase;
 			font-size: 24px;	
 		}
 
 		p {
+			text-align: left;
 			font-family: $secondary-font;
 			margin: 0;
-		}
-
-	}
-
-
-	.hex {
-
-		
-
-		.hexRight {
-			display: inline-block;
-			width: 0px;
-			border-left: 40px solid #6C6;
-			border-top: 112px solid transparent;
-			border-bottom: 112px solid transparent;
-		}
-		.hexMid {
-			display: inline-block;
-			width: 240px;
-			height: 112px;
-			background-color: #6C6;
-		}
-		.hexLeft {
-			display: inline-block;
-			width: 0px;
-			border-right: 40px solid #6C6;
-			border-top: 112px solid transparent;
-			border-bottom: 112px solid transparent;
+			font-size: 16px;
 		}
 	}
 
-	.footer {
-		height: auto;
-	}
+	.social {
 
-	.socialCont {
-		width: 100%;
-		padding-left: 30px;
-		margin-bottom: 20px;
-		padding-right: 0px;
-	}
+		margin-top: 30px;
 
-	/* footer social icons */
-	ul.social-network {
-		list-style: none;
-		display: inline;
-		margin-left:0 !important;
-		padding: 0;
-	}
-	ul.social-network li {
-		display: inline;
-		margin: 0 5px;
-	}
+		i {
+			font-size: 20px;
+		}
 
-	/* footer social icons */
-	.social-network a.icoFacebook:hover {
-		background-color:#3B5998;
-	}
-	.social-network a.icoInstagram:hover {
-		background-color: #c13584;
-		color: white;
-	}
-	.social-network a.icoTwitter:hover {
-		background-color:#33ccff;
-	}
+		ul.social-network {
+			list-style: none;
+			display: inline;
+			margin-left:0 !important;
+			padding: 0;
+		}
+		ul.social-network li {
+			display: inline;
+			margin: 0 5px;
+		}
 
-	a.socialIcon:hover, .socialHoverClass {
-		color:#44BCDD;
-	}
+		/* footer social icons */
+		.social-network a.icoFacebook:hover {
+			background-color:#3B5998;
+		}
+		.social-network a.icoInstagram:hover {
+			background-color: #c13584;
+			color: white;
+		}
+		.social-network a.icoTwitter:hover {
+			background-color:#33ccff;
+		}
 
-	.social-circle li a {
-		display:inline-block;
-		position:relative;
-		margin:0 auto 0 auto;
-		-moz-border-radius:50%;
-		-webkit-border-radius:50%;
-		border-radius:50%;
-		text-align:center;
-		width: 50px;
-		height: 50px;
-		font-size:20px;
-	}
-	.social-circle li i {
-		margin:0;
-		line-height:50px;
-		text-align: center;
-	}
+		a.socialIcon:hover, .socialHoverClass {
+			color:#44BCDD;
+		}
 
-	a {
-	 background-color: #fff;   
+		.social-circle li a {
+			display:inline-block;
+			position:relative;
+			margin:0 auto 0 auto;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			border-radius:50%;
+			text-align:center;
+			width: 50px;
+			height: 50px;
+			font-size:20px;
+		}
+		.social-circle li i {
+			margin: 0;
+			line-height:50px;
+			text-align: center;
+		}
+
+		a {
+		 background-color: transparent;
+		 border: 2px solid white;   
+		}
 	}
 
 	.values {
-		width: 100%;
-		font-family: $secondary-font;
-		padding-left: 30px;
-		padding-right: 0px;
+
+		margin-top: 30px;
+		text-align: left;
+
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+.footer {
+	h4 {
+		color: white;
+		font-size: 1em;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin-top: 2.5rem;
+		margin-bottom: 10px;
+	}
+	p, a {
+		font-weight: 300; 
+		font-size: .8em;
+		color: white;
 	}
 }
 
 
+/* Medium Up */
 @media screen and (min-width: 40em) {
-	footer {
-		height: 180px;
-	}
-
 	.footer {
-		height: 180px;
+		padding: 0px;
+
+		height: auto;
+
+		.contact {
+			padding-top: 2.5rem;
+			padding-left: 30px;
+			padding-right: 0px;
+		}
+
+		.social {
+			margin-top: 70px;
+		}
+
+		.hex {
+			margin-top: 0px;
+			padding-left: 0px;
+			clear: right;
+
+			img {
+				height: 206px;		
+			}
+		}
+
+		.values {
+			padding: 0px;
+			margin-top: 70px;
+		}
 	}
 }
 

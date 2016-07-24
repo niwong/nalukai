@@ -1,100 +1,99 @@
 @font-face {
   font-family: "Avenir";
   src: url("../res/Avenir.ttf") format("truetype"); }
-/* footer */
-footer, .page-wrap:after {
-  height: 180px; }
-
-footer {
-  width: 100%;
-  height: auto;
+.footer {
   background-color: #1e364a;
-  color: white;
-  /* footer social icons */
-  /* footer social icons */ }
-  footer .contactCont {
-    width: 100%;
-    margin-top: 20px;
-    padding-left: 30px;
-    margin-bottom: 20px;
-    padding-right: 0px; }
-    footer .contactCont h1 {
-      font-family: "Montserrat", sans-serif;
-      text-transform: uppercase;
-      font-size: 24px; }
-    footer .contactCont p {
-      font-family: "Avenir", sans-serif;
-      margin: 0; }
-  footer .hex .hexRight {
-    display: inline-block;
-    width: 0px;
-    border-left: 40px solid #6C6;
-    border-top: 112px solid transparent;
-    border-bottom: 112px solid transparent; }
-  footer .hex .hexMid {
-    display: inline-block;
-    width: 240px;
-    height: 112px;
-    background-color: #6C6; }
-  footer .hex .hexLeft {
-    display: inline-block;
-    width: 0px;
-    border-right: 40px solid #6C6;
-    border-top: 112px solid transparent;
-    border-bottom: 112px solid transparent; }
-  footer .footer {
-    height: auto; }
-  footer .socialCont {
-    width: 100%;
-    padding-left: 30px;
-    margin-bottom: 20px;
-    padding-right: 0px; }
-  footer ul.social-network {
-    list-style: none;
-    display: inline;
-    margin-left: 0 !important;
-    padding: 0; }
-  footer ul.social-network li {
-    display: inline;
-    margin: 0 5px; }
-  footer .social-network a.icoFacebook:hover {
-    background-color: #3B5998; }
-  footer .social-network a.icoInstagram:hover {
-    background-color: #c13584;
-    color: white; }
-  footer .social-network a.icoTwitter:hover {
-    background-color: #33ccff; }
-  footer a.socialIcon:hover, footer .socialHoverClass {
-    color: #44BCDD; }
-  footer .social-circle li a {
-    display: inline-block;
-    position: relative;
-    margin: 0 auto 0 auto;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    font-size: 20px; }
-  footer .social-circle li i {
-    margin: 0;
-    line-height: 50px;
-    text-align: center; }
-  footer a {
-    background-color: #fff; }
-  footer .values {
-    width: 100%;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  color: white; }
+  .footer .contact h1 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px; }
+  .footer .contact p {
+    text-align: left;
     font-family: "Avenir", sans-serif;
-    padding-left: 30px;
-    padding-right: 0px; }
+    margin: 0;
+    font-size: 16px; }
+  .footer .social {
+    margin-top: 30px;
+    /* footer social icons */ }
+    .footer .social i {
+      font-size: 20px; }
+    .footer .social ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left: 0 !important;
+      padding: 0; }
+    .footer .social ul.social-network li {
+      display: inline;
+      margin: 0 5px; }
+    .footer .social .social-network a.icoFacebook:hover {
+      background-color: #3B5998; }
+    .footer .social .social-network a.icoInstagram:hover {
+      background-color: #c13584;
+      color: white; }
+    .footer .social .social-network a.icoTwitter:hover {
+      background-color: #33ccff; }
+    .footer .social a.socialIcon:hover, .footer .social .socialHoverClass {
+      color: #44BCDD; }
+    .footer .social .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      font-size: 20px; }
+    .footer .social .social-circle li i {
+      margin: 0;
+      line-height: 50px;
+      text-align: center; }
+    .footer .social a {
+      background-color: transparent;
+      border: 2px solid white; }
+  .footer .values {
+    margin-top: 30px;
+    text-align: left; }
+    .footer .values p {
+      font-size: 16px; }
 
+.footer h4 {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px; }
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: white; }
+
+/* Medium Up */
 @media screen and (min-width: 40em) {
-  footer {
-    height: 180px; }
-
   .footer {
-    height: 180px; } }
+    padding: 0px;
+    height: auto; }
+    .footer .contact {
+      padding-top: 2.5rem;
+      padding-left: 30px;
+      padding-right: 0px; }
+    .footer .social {
+      margin-top: 70px; }
+    .footer .hex {
+      margin-top: 0px;
+      padding-left: 0px;
+      clear: right; }
+      .footer .hex img {
+        height: 206px; }
+    .footer .values {
+      padding: 0px;
+      margin-top: 70px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */

@@ -88,11 +88,6 @@ $secondary-font: 'Avenir', sans-serif;
 	}
 }
 
-// .page-wrap:after {
-// 		content: "";
-// 		display: block;
-// }
-
 /* Medium and up */
 @media screen and (min-width: 40em) {
 
@@ -103,9 +98,11 @@ $secondary-font: 'Avenir', sans-serif;
 	   max-width: initial;
 	}
 
+
 	.page-wrap {
 		.missionRow {
 
+			margin-bottom: -180px;
 			margin-top: 40px;
 			width: 90%;
 
@@ -162,9 +159,6 @@ $secondary-font: 'Avenir', sans-serif;
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-	.page-wrap {
-		margin-bottom: -180px;
-	}
 }
 
 /* Large and up */
