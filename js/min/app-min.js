@@ -1,2 +1,2 @@
-$(document).foundation();
+$(document).foundation();var i=0;$("#name").click(function(){console.log("click"),i++,console.log(i),i%2===0?(console.log("even"),$("#studInfo").remove()):(console.log("odd"),$("#row1").after('<div class="callout" id="studInfo"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>'))});
 //# sourceMappingURL=./app-min.js.map
