@@ -21,47 +21,147 @@ $secondary-font: 'Avenir', sans-serif;
 
 /* footer */
 footer, .page-wrap:after {
- 	height: 195px; 
+ 	height: 180px; 
 }
 
 footer {
 	width: 100%;
-	height: 195px;
+	height: auto;
 	background-color: $primary-color;
 	color: white;
 
 	.contactCont {
+		width: 100%;
 		margin-top: 20px;
-		margin-left: 20px;
+		padding-left: 30px;
+
+		margin-bottom: 20px;
+		padding-right: 0px;
 
 		h1 {
 			font-family: $primary-font;
-			font-size: 32px;	
+			text-transform: uppercase;
+			font-size: 24px;	
 		}
 
 		p {
 			font-family: $secondary-font;
+			margin: 0;
 		}
 
 	}
 
-	// .hex {
-	// 	.hexRight {
-	// 		width: 0px;
-	// 		border-left: 40px solid #6C6;
-	// 		border-top: 112px solid transparent;
-	// 		border-bottom: 112px solid transparent;
-	// 	}
-	// 	.hexMid {
-	// 		width: 240px;
-	// 		height: 112px;
-	// 		background-color: #6C6;
-	// 	}
-	// 	.hexLeft {
-	// 		width: 0px;
-	// 		border-right: 40px solid #6C6;
-	// 		border-top: 112px solid transparent;
-	// 		border-bottom: 112px solid transparent;
-	// 	}
-	// }
+
+	.hex {
+
+		padding-right: 0px;
+
+		// .hexRight {
+		// 	width: 0px;
+		// 	border-left: 40px solid #6C6;
+		// 	border-top: 112px solid transparent;
+		// 	border-bottom: 112px solid transparent;
+		// }
+		// .hexMid {
+		// 	width: 240px;
+		// 	height: 112px;
+		// 	background-color: #6C6;
+		// }
+		// .hexLeft {
+		// 	width: 0px;
+		// 	border-right: 40px solid #6C6;
+		// 	border-top: 112px solid transparent;
+		// 	border-bottom: 112px solid transparent;
+		// }
+	}
+
+	.footer {
+		height: auto;
+	}
+
+	.socialCont {
+		width: 100%;
+		padding-left: 30px;
+		margin-bottom: 20px;
+		padding-right: 0px;
+	}
+
+	/* footer social icons */
+	ul.social-network {
+		list-style: none;
+		display: inline;
+		margin-left:0 !important;
+		padding: 0;
+	}
+	ul.social-network li {
+		display: inline;
+		margin: 0 5px;
+	}
+
+	/* footer social icons */
+	.social-network a.icoFacebook:hover {
+		background-color:#3B5998;
+	}
+	.social-network a.icoInstagram:hover {
+		background-color: #c13584;
+		color: white;
+	}
+	.social-network a.icoTwitter:hover {
+		background-color:#33ccff;
+	}
+
+	a.socialIcon:hover, .socialHoverClass {
+		color:#44BCDD;
+	}
+
+	.social-circle li a {
+		display:inline-block;
+		position:relative;
+		margin:0 auto 0 auto;
+		-moz-border-radius:50%;
+		-webkit-border-radius:50%;
+		border-radius:50%;
+		text-align:center;
+		width: 50px;
+		height: 50px;
+		font-size:20px;
+	}
+	.social-circle li i {
+		margin:0;
+		line-height:50px;
+		text-align: center;
+	}
+
+	a {
+	 background-color: #fff;   
+	}
+
+	.values {
+		width: 100%;
+		font-family: $secondary-font;
+		padding-left: 30px;
+		padding-right: 0px;
+	}
 }
+
+
+@media screen and (min-width: 40em) {
+	footer {
+		height: 180px;
+	}
+
+	.footer {
+		height: 180px;
+	}
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+

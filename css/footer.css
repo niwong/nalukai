@@ -3,18 +3,83 @@
   src: url("../res/Avenir.ttf") format("truetype"); }
 /* footer */
 footer, .page-wrap:after {
-  height: 195px; }
+  height: 180px; }
 
 footer {
   width: 100%;
-  height: 195px;
+  height: auto;
   background-color: #1e364a;
-  color: white; }
+  color: white;
+  /* footer social icons */
+  /* footer social icons */ }
   footer .contactCont {
+    width: 100%;
     margin-top: 20px;
-    margin-left: 20px; }
+    padding-left: 30px;
+    margin-bottom: 20px;
+    padding-right: 0px; }
     footer .contactCont h1 {
       font-family: "Montserrat", sans-serif;
-      font-size: 32px; }
+      text-transform: uppercase;
+      font-size: 24px; }
     footer .contactCont p {
-      font-family: "Avenir", sans-serif; }
+      font-family: "Avenir", sans-serif;
+      margin: 0; }
+  footer .hex {
+    padding-right: 0px; }
+  footer .footer {
+    height: auto; }
+  footer .socialCont {
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    padding-right: 0px; }
+  footer ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0; }
+  footer ul.social-network li {
+    display: inline;
+    margin: 0 5px; }
+  footer .social-network a.icoFacebook:hover {
+    background-color: #3B5998; }
+  footer .social-network a.icoInstagram:hover {
+    background-color: #c13584;
+    color: white; }
+  footer .social-network a.icoTwitter:hover {
+    background-color: #33ccff; }
+  footer a.socialIcon:hover, footer .socialHoverClass {
+    color: #44BCDD; }
+  footer .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px; }
+  footer .social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center; }
+  footer a {
+    background-color: #fff; }
+  footer .values {
+    width: 100%;
+    font-family: "Avenir", sans-serif;
+    padding-left: 30px;
+    padding-right: 0px; }
+
+@media screen and (min-width: 40em) {
+  footer {
+    height: 180px; }
+
+  .footer {
+    height: 180px; } }
+/* Medium only */
+/* Large and up */
+/* Large only */

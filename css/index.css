@@ -3,8 +3,7 @@
   src: url("../res/Avenir.ttf") format("truetype"); }
 /* Mobile first */
 .page-wrap {
-  min-height: 100%;
-  margin-bottom: -195px; }
+  min-height: 100%; }
   .page-wrap .hero1 {
     height: 200px;
     width: 100%;
@@ -50,6 +49,47 @@
   display: block; }
 
 /* Medium and up */
+@media screen and (min-width: 40em) {
+  .fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial; }
+
+  .page-wrap .missionRow {
+    margin-top: 40px;
+    width: 90%; }
+    .page-wrap .missionRow .mission {
+      margin-bottom: 65px; }
+      .page-wrap .missionRow .mission h1 {
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        letter-spacing: 2.5px;
+        font-size: 24px; }
+      .page-wrap .missionRow .mission p {
+        text-align: left;
+        letter-spacing: 2.5px;
+        font-size: 14px; }
+  .page-wrap .videoRow {
+    margin-bottom: 200px;
+    width: 80%; }
+    .page-wrap .videoRow .video {
+      height: 300px; }
+    .page-wrap .videoRow .videoDesc {
+      padding-left: 40px; }
+      .page-wrap .videoRow .videoDesc h1 {
+        font-family: "Montserrat", sans-serif;
+        text-align: left;
+        letter-spacing: 3px;
+        font-size: 32px; }
+      .page-wrap .videoRow .videoDesc p {
+        font-family: "Avenir", sans-serif;
+        letter-spacing: 2.5px;
+        font-size: 14px; } }
 /* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .page-wrap {
+    margin-bottom: -180px; } }
 /* Large and up */
 /* Large only */
