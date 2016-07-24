@@ -1,3 +1,6 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../res/Avenir.ttf") format("truetype"); }
 /* Mobile first */
 .title-bar {
   background: white;
@@ -33,6 +36,25 @@
   border-radius: 100%;
   position: absolute;
   background-image: url("../img/nalukaiLogo.png"); }
+.page-wrap .mission h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0px;
+  letter-spacing: 3px; }
+.page-wrap .mission p {
+  text-align: center;
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px; }
+.page-wrap .mission h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: 20px 0px;
+  letter-spacing:3px;
+}
 
 /* moments image/banner */
 #img2 {
@@ -59,6 +81,21 @@ footer {
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+    .page-wrap .missionRow {
+    margin-top: 40px;
+    width: 90%; }
+    .page-wrap .missionRow .mission {
+      margin-bottom: 65px; }
+      .page-wrap .missionRow .mission h1 {
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        letter-spacing: 2.5px;
+        font-size: 24px; }
+      .page-wrap .missionRow .mission p {
+        text-align: left;
+        letter-spacing: 2.5px;
+        font-size: 14px; }
   .top-bar {
     height: 120px; }
     .top-bar .top-bar-left {
