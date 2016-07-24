@@ -1,6 +1,6 @@
-$font-stack:    Helvetica, sans-serif;
 $primary-color: #1e364a;
 $primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Avenir', sans-serif;
 
 @mixin logo($logo-width, $logo-height) {
 		width: $logo-width;
@@ -11,127 +11,84 @@ $primary-font: 'Montserrat', sans-serif;
 		background-image: url('../img/nalukaiLogo.png');
 }
 
+@font-face {
+    font-family: "Avenir";
+    src: url("../res/Avenir.ttf") format("truetype");
+}
+
+
 /* Mobile first */
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -195px;
 
-/* nav */
-	.title-bar {
-		background:	white;
-		border-bottom: 2px solid $primary-color;
-		padding-bottom: 50px;
-		font-family: 'Montserrat', sans-serif;
-	}
-
-	.menu-icon {
-		float: right;
-		margin: 10px 0px;
-		background: black;
-		width: 35px;
-		height: 21px;
-	}
-
-	.menu > li {
-		text-align: right;
-	}
-
-	.top-bar {
-		background: white;
-
-		.top-bar-left {
-			a {
-				color: black;
-				font-family: $primary-font;
-			}
-		}
-
-		.top-bar-right {
-			a {
-				color: black;
-				font-family:  $primary-font;
-			}
-		}
-
-		ul {
-			background: white;
-		}
-	}
-
-	.logo {
-		@include logo(115px, 80px);
-	}
-
-
-	/* footer */
-	footer {
-		position: absolute;
-		bottom: 0;
+	.hero1 {
+		height: 200px;
 		width: 100%;
-		height: auto;
-		background-color: teal;
-		color: white;
+		background-color: #eee;
+		border-bottom: 2px solid $primary-color;
+	}
 
-		.contactCont {
-			margin-top: 20px;
-			margin-left: 20px;
+	.mission {
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+			font-family: $primary-font;
+			margin: 20px 0px;
+			letter-spacing: 3px;
+		}
 
-			h1 {
-				font-family:  $primary-font;
-				font-size: 32px;	
+		p {
+			text-align: center;
+			font-family: $secondary-font;
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.video {
+		height: 200px;
+		widows: 100%;
+		background-color: #eee;
+		position: relative;
+
+		.playButton {
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+			border: 2px solid white;
+
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+
+
+			.play {
+				position: absolute;
+				left: 55%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+
+				width: 0px;
+				border-left: 32px solid #fff;
+				border-top: 24px solid transparent;
+				border-bottom: 24px solid transparent;
 			}
 
 		}
 
-		// .hex {
-
-		// 	.hexRight {
-		// 		width: 0px;
-		// 		border-left: 40px solid #6C6;
-		// 		border-top: 112px solid transparent;
-		// 		border-bottom: 112px solid transparent;
-		// 	}
-		// 	.hexMid {
-		// 		width: 240px;
-		// 		height: 112px;
-		// 		background-color: #6C6;
-		// 	}
-		// 	.hexLeft {
-		// 		width: 0px;
-		// 		border-right: 40px solid #6C6;
-		// 		border-top: 112px solid transparent;
-		// 		border-bottom: 112px solid transparent;
-		// 	}
-		// }
 	}
+}
+
+.page-wrap:after {
+		content: "";
+		display: block;
+}
+
 
 /* Medium and up */
-@media screen and (min-width: 40em) {
-
-	/* nav */ 
-	.top-bar {
-
-		height: 120px;
-
-		.top-bar-left {
-			position: relative;
-			top: 50%;
-			transform: translate(0%, -50%);
-			left: 20%;
-		}
-
-		.top-bar-right {
-			position: relative;
-			top: 50%;
-			transform: translate(-0%, -50%);
-			right: 20%;
-		}
-
-		.logo {
-			@include logo(145px, 110px);
-			left: 50%;
-			transform: translate(-50%, 0%);
-		}
-
-	}	
-}
+@media screen and (min-width: 40em) {}
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {}

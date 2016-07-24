@@ -42,7 +42,7 @@
     margin-bottom: 20px;
     /* headshots */ }
     .page-wrap .headshotRow .headshotCont {
-      border: 1px solid red; }
+      margin-top: 20px; }
 
 .page-wrap:after {
   content: "";
