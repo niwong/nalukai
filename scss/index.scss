@@ -1,6 +1,6 @@
-$font-stack:    Helvetica, sans-serif;
 $primary-color: #1e364a;
 $primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Avenir', sans-serif;
 
 @mixin logo($logo-width, $logo-height) {
 		width: $logo-width;
@@ -10,6 +10,12 @@ $primary-font: 'Montserrat', sans-serif;
 		position: absolute;
 		background-image: url('../img/nalukaiLogo.png');
 }
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../res/Avenir.ttf") format("truetype");
+}
+
 
 /* Mobile first */
 
@@ -59,13 +65,83 @@ $primary-font: 'Montserrat', sans-serif;
 		@include logo(115px, 80px);
 	}
 
+	.page-wrap {
+		min-height: 100%;
+		margin-bottom: -195px;
+
+		.hero1 {
+			height: 200px;
+			width: 100%;
+			background-color: #eee;
+			border-bottom: 2px solid $primary-color;
+		}
+
+		.mission {
+			h1 {
+				text-align: center;
+				text-transform: uppercase;
+				font-family: $primary-font;
+				margin: 20px 0px;
+				letter-spacing: 3px;
+			}
+
+			p {
+				text-align: center;
+				font-family: $secondary-font;
+				font-size: 16px;
+				margin-bottom: 20px;
+			}
+		}
+
+		.video {
+			height: 200px;
+			widows: 100%;
+			background-color: #eee;
+			border-bottom: 2px solid $primary-color;
+			position: relative;
+
+			.playButton {
+				width: 100px;
+				height: 100px;
+				border-radius: 100%;
+				border: 2px solid white;
+
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+
+
+				.play {
+					position: absolute;
+					left: 55%;
+					top: 50%;
+					transform: translate(-50%, -50%);
+
+					width: 0px;
+					border-left: 32px solid #fff;
+					border-top: 24px solid transparent;
+					border-bottom: 24px solid transparent;
+				}
+
+			}
+
+		}
+	}
+
+	.page-wrap:after {
+  		content: "";
+  		display: block;
+	}
 
 	/* footer */
+	footer, .page-wrap:after {
+	 	height: 195px; 
+	}
+
 	footer {
-		position: absolute;
-		bottom: 0;
 		width: 100%;
-		height: auto;
+		height: 195px;
 		background-color: teal;
 		color: white;
 
