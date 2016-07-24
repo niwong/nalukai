@@ -5,10 +5,12 @@
 .page-wrap {
   min-height: 100%; }
   .page-wrap .hero1 {
-    height: 200px;
+    height: auto;
     width: 100%;
-    background-color: #eee;
+    padding: 0;
     border-bottom: 2px solid #1e364a; }
+    .page-wrap .hero1 img {
+      width: 100%; }
   .page-wrap .mission h1 {
     text-align: center;
     text-transform: uppercase;

@@ -25,10 +25,15 @@ $secondary-font: 'Avenir', sans-serif;
 	min-height: 100%;
 
 	.hero1 {
-		height: 200px;
+		height: auto;
 		width: 100%;
-		background-color: #eee;
+		padding: 0;
+		
 		border-bottom: 2px solid $primary-color;
+
+		img {
+			width: 100%;
+		}
 	}
 
 	.mission {
