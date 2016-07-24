@@ -34,6 +34,13 @@
   position: absolute;
   background-image: url("../img/nalukaiLogo.png"); }
 
+/* moments image/banner */
+#img2 {
+  display:block; }
+#img1 {
+  display:none; }
+
+
 /* footer */
 footer, .page-wrap:after {
   height: 195px; }
@@ -72,7 +79,13 @@ footer {
       position: absolute;
       background-image: url("../img/nalukaiLogo.png");
       left: 50%;
-      transform: translate(-50%, 0%); } }
+      transform: translate(-50%, 0%); } 
+      #img2 {
+    display:none; }
+      #img1 {
+        display:block; }
+
+
 /* Medium only */
 /* Large and up */
 /* Large only */
