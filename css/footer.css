@@ -25,8 +25,23 @@ footer {
     footer .contactCont p {
       font-family: "Avenir", sans-serif;
       margin: 0; }
-  footer .hex {
-    padding-right: 0px; }
+  footer .hex .hexRight {
+    display: inline-block;
+    width: 0px;
+    border-left: 40px solid #6C6;
+    border-top: 112px solid transparent;
+    border-bottom: 112px solid transparent; }
+  footer .hex .hexMid {
+    display: inline-block;
+    width: 240px;
+    height: 112px;
+    background-color: #6C6; }
+  footer .hex .hexLeft {
+    display: inline-block;
+    width: 0px;
+    border-right: 40px solid #6C6;
+    border-top: 112px solid transparent;
+    border-bottom: 112px solid transparent; }
   footer .footer {
     height: auto; }
   footer .socialCont {

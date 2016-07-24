@@ -83,10 +83,10 @@ $secondary-font: 'Avenir', sans-serif;
 	}
 }
 
-.page-wrap:after {
-		content: "";
-		display: block;
-}
+// .page-wrap:after {
+// 		content: "";
+// 		display: block;
+// }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
@@ -136,7 +136,7 @@ $secondary-font: 'Avenir', sans-serif;
 			.videoDesc {
 
 				padding-left: 40px;
-			
+
 				h1 {
 					font-family: $primary-font;
 					text-align: left;
