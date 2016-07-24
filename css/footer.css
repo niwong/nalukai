@@ -74,14 +74,18 @@
   font-size: .8em;
   color: white; }
 
-@media only screen and (min-width: 40.063em) {
-  .footer .columns:nth-child(n+2) {
-    min-height: 280px; } }
-.footer-links {
-  list-style-type: none; }
-  .footer-links li {
-    margin-top: .5em; }
-
+/* Medium Up */
+@media screen and (min-width: 40em) {
+  .footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: auto; }
+    .footer .contact {
+      padding-left: 30px; }
+    .footer .social {
+      margin-top: 40px; }
+    .footer .values {
+      margin-top: 40px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */
