@@ -77,15 +77,23 @@
 /* Medium Up */
 @media screen and (min-width: 40em) {
   .footer {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
     height: auto; }
     .footer .contact {
-      padding-left: 30px; }
+      padding-top: 2.5rem;
+      padding-left: 30px;
+      padding-right: 0px; }
     .footer .social {
-      margin-top: 40px; }
+      margin-top: 70px; }
+    .footer .hex {
+      margin-top: 0px;
+      padding-left: 0px;
+      clear: right; }
+      .footer .hex img {
+        height: 206px; }
     .footer .values {
-      margin-top: 40px; } }
+      padding: 0px;
+      margin-top: 70px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */

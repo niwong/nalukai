@@ -132,24 +132,33 @@ $secondary-font: 'Avenir', sans-serif;
 /* Medium Up */
 @media screen and (min-width: 40em) {
 	.footer {
-
-		padding-left: 0px;
-		padding-right: 0px;
+		padding: 0px;
 
 		height: auto;
 
 		.contact {
+			padding-top: 2.5rem;
 			padding-left: 30px;
+			padding-right: 0px;
 		}
 
 		.social {
-			margin-top: 40px;
+			margin-top: 70px;
 		}
 
-		.hex {}
+		.hex {
+			margin-top: 0px;
+			padding-left: 0px;
+			clear: right;
+
+			img {
+				height: 206px;		
+			}
+		}
 
 		.values {
-			margin-top: 40px;
+			padding: 0px;
+			margin-top: 70px;
 		}
 	}
 }
