@@ -19,6 +19,13 @@ $secondary-font: 'Avenir', sans-serif;
     src: url("../res/Avenir.ttf") format("truetype");
 }
 
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
 
 /* Mobile first */
 .page-wrap {
@@ -90,15 +97,6 @@ $secondary-font: 'Avenir', sans-serif;
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-
-	.fullWidth {
-	   width: 100%;
-	   margin-left: auto;
-	   margin-right: auto;
-	   max-width: initial;
-	}
-
-
 	.page-wrap {
 		.missionRow {
 

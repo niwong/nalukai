@@ -1,6 +1,9 @@
-$font-stack:    Helvetica, sans-serif;
 $primary-color: #1e364a;
+$secondary-color: #80CEBE;
+$tertiary-color: #70AFA7;
+$quaternary-color: #95A3AA;
 $primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Avenir', sans-serif;
 
 @mixin logo($logo-width, $logo-height) {
 		width: $logo-width;
@@ -10,6 +13,19 @@ $primary-font: 'Montserrat', sans-serif;
 		position: absolute;
 		background-image: url('../img/nalukaiLogo.png');
 }
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../res/Avenir.ttf") format("truetype");
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
 /* Mobile first */
 
 .page-wrap {
@@ -29,6 +45,14 @@ $primary-font: 'Montserrat', sans-serif;
 		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.triangle {
+		width: 0; 
+		height: 0; 
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		border-bottom: 5px solid black;
 	}
 }
 

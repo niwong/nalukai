@@ -49,8 +49,10 @@ $('.column2').click(function() {
 			console.log('column3');
 		}
 
-		$( "#row1" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
 
+
+		$( "#row1" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
+		$("#studInfo").after("<div class=\"triangle\"</div>");
 	}
 });
 
@@ -79,6 +81,3 @@ $('.column3').click(function() {
 
 	}
 });
-
-
-// .append a triangle based on class and id ex. columns 2 people will have a middle triangle
