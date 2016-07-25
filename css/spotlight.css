@@ -13,6 +13,12 @@
     font-family: "Avenir", sans-serif;
     font-size: 16px;
     margin-bottom: 20px; }
+  .page-wrap .mission h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px; 
+    margin-bottom: 20px;}
     a {
       color:black;
     }
@@ -23,13 +29,23 @@
       color:gray;
     }
 
-
-
 .page-wrap:after {
   content: "";
   display: block; }
 
+/* spotlight image formatting */
+#img2 {
+  display:none; }
+#img1 {
+  display:block; }
+
 /* Medium and up */
+@media screen and (min-width: 40em) {
+#img2 {
+  display:block; }
+#img1 {
+  display:none; }
+
 /* Medium only */
 /* Large and up */
 /* Large only */
