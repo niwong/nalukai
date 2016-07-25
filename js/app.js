@@ -7,7 +7,9 @@ $('.column1').click(function() {
 
 	if (i % 2 === 0) {
 		$("#studInfo").remove();
-		$(".triangle").remove();
+		$(".triangleLeft").remove();
+		$(".triangleCenter").remove();
+		$(".triangleRight").remove();
 	} else {
 
 	var isOne = $(this).hasClass("column1");
@@ -24,8 +26,9 @@ $('.column1').click(function() {
 		console.log('column3');
 	}
 
+	
 	$( "#row1" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-	$("#studInfo").after("<div class=\"triangle\"</div>");
+	$("#studInfo").before("<div class=\"triangleLeft\"</div>");
 
 	}
 });
@@ -35,7 +38,9 @@ $('.column2').click(function() {
 
 	if (i % 2 === 0) {
 		$("#studInfo").remove();
-		$(".triangle").remove();
+		$(".triangleLeft").remove();
+		$(".triangleCenter").remove();
+		$(".triangleRight").remove();
 	} else {
 
 		var isOne = $(this).hasClass("column1");
@@ -53,7 +58,7 @@ $('.column2').click(function() {
 		}
 
 		$( "#row1" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-		$("#studInfo").after("<div class=\"triangle\"</div>");
+		$("#studInfo").before("<div class=\"triangleCenter\"</div>");
 	}
 });
 
@@ -62,7 +67,9 @@ $('.column3').click(function() {
 
 	if (i % 2 === 0) {
 		$("#studInfo").remove();
-		$(".triangle").remove();
+		$(".triangleLeft").remove();
+		$(".triangleCenter").remove();
+		$(".triangleRight").remove();
 	} else {
 
 		var isOne = $(this).hasClass("column1");
@@ -80,7 +87,7 @@ $('.column3').click(function() {
 		}
 
 		$( "#row1" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-		$("#studInfo").after("<div class=\"triangle\"</div>");
+		$("#studInfo").before("<div class=\"triangleRight\"</div>");
 
 	}
 });
