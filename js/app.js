@@ -69,31 +69,31 @@ $('.column2').click(function() {
 
 		if (isOne === true) {
 			$( "#row1" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleCenter\"</div>");	
 		}
 		if (isTwo === true) {
 			$( "#row2" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleCenter\"</div>");	
 		}
 		if (isThree === true) {
 			$( "#row3" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleCenter\"</div>");	
 		}
 		if (isFour === true) {
 			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleCenter\"</div>");	
 		}
 		if (isFive === true) {
 			$( "#row5" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleCenter\"</div>");	
 		}
 		if (isSix === true) {
 			$( "#row6" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleCenter\"</div>");	
 		}
 		if (isSeven === true) {
 			$( "#row7" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleCenter\"</div>");	
 		}
 	}
 });
@@ -117,31 +117,31 @@ $('.column3').click(function() {
 
 		if (isOne === true) {
 			$( "#row1" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleRight\"</div>");	
 		}
 		if (isTwo === true) {
 			$( "#row2" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleRight\"</div>");	
 		}
 		if (isThree === true) {
 			$( "#row3" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleRight\"</div>");	
 		}
 		if (isFour === true) {
 			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleRight\"</div>");	
 		}
 		if (isFive === true) {
 			$( "#row5" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleRight\"</div>");	
 		}
 		if (isSix === true) {
 			$( "#row6" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleRight\"</div>");	
 		}
 		if (isSeven === true) {
 			$( "#row7" ).after("<div class=\"callout\" id=\"studInfo\"><h5>This is a callout.</h5><p>It has an easy to override visual style, and is appropriately subdued.</p></div>" );
-			$("#studInfo").before("<div class=\"triangleLeft\"</div>");	
+			$("#studInfo").before("<div class=\"triangleRight\"</div>");	
 		}
 	}
 });
