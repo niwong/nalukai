@@ -37,6 +37,7 @@
   position: absolute;
   background-image: url("../img/nalukaiLogo.png"); }
 .page-wrap .mission h1 {
+  color: white;
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -44,20 +45,39 @@
   letter-spacing: 3px; }
 .page-wrap .mission p {
   text-align: center;
+  color: #1F3749;
   font-family: "Avenir", sans-serif;
   font-size: 16px;
   margin-bottom: 20px; }
 .page-wrap .mission h2 {
+  color: #1F3749;
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  letter-spacing:3px;
+  font-size: 20px;
+  letter-spacing:3px; }
+.sline .mission h1 {
+  color: #1F3749;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0px;
+  letter-spacing: 3px; 
 }
 
-/* moments image/banner */
+
+.sline {
+  background-color: #1F3749;}
+.line {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* showcase picture styling/formatting */
 #img2 {
-  display:block; }
+  display:block; 
+  padding-left:10px;
+  padding-right:10px;}
 #img1 {
   display:none; }
 
