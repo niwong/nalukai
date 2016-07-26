@@ -52,7 +52,9 @@
   .page-wrap .triangleCenter {
     margin-left: 840px; }
   .page-wrap .triangleRight {
-    margin-left: 1230px; } }
+    margin-left: 1230px; }
+  .page-wrap .headshotRow:last-child {
+    margin-bottom: 100px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */
