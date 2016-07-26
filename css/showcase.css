@@ -56,13 +56,27 @@
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   letter-spacing:3px; }
+.sline .mission h1 {
+  color: #1F3749;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0px;
+  letter-spacing: 3px; 
+}
 
 .sline {
   background-color: #1F3749;}
+.line {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-/* moments image/banner */
+/* showcase picture styling/formatting */
 #img2 {
-  display:block; }
+  display:block; 
+  padding-left:10px;
+  padding-right:10px;}
 #img1 {
   display:none; }
 
