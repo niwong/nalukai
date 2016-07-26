@@ -54,7 +54,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing:3px; }
 .sline .mission h1 {
   color: #1F3749;
@@ -64,6 +64,7 @@
   margin: 20px 0px;
   letter-spacing: 3px; 
 }
+
 
 .sline {
   background-color: #1F3749;}
