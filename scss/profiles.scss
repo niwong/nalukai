@@ -4,6 +4,10 @@ $tertiary-color: #70AFA7;
 $quaternary-color: #95A3AA;
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Avenir', sans-serif;
+$desktop-font-size-header: 32px;
+$mobile-font-size-header: 24px;
+$desktop-font-size-paragraph: 18px;
+$mobile-font-size-paragraph: 16px;
 
 @mixin logo($logo-width, $logo-height) {
 		width: $logo-width;
@@ -108,12 +112,12 @@ $secondary-font: 'Avenir', sans-serif;
 
 		// names
 		.callout > :first-child {
-			font-size: 32px;
+			font-size: $desktop-font-size-header;
 		}	
 
 		// anecdote
 		.callout > :last-child {
-			font-size: 18px;
+			font-size: $desktop-font-size-paragraph;
 		}	
 	}
 }

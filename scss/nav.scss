@@ -1,6 +1,10 @@
 $primary-color: #1e364a;
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Avenir', sans-serif;
+$desktop-font-size-header: 32px;
+$mobile-font-size-header: 24px;
+$desktop-font-size-paragraph: 18px;
+$mobile-font-size-paragraph: 16px;
 
 @mixin logo($logo-width, $logo-height) {
 		width: $logo-width;

@@ -16,7 +16,7 @@
     text-align: left;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    font-size: 24px; }
+    font-size: 32px; }
   .footer .contact p {
     text-align: left;
     font-family: "Avenir", sans-serif;
@@ -74,10 +74,11 @@
   font-weight: 400;
   text-transform: uppercase;
   margin-top: 2.5rem;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 24px; }
 .footer p, .footer a {
   font-weight: 300;
-  font-size: .8em;
+  font-size: 16px;
   color: white; }
 
 /* Medium Up */
@@ -85,10 +86,18 @@
   .footer {
     padding: 0px;
     height: auto; }
+    .footer h4 {
+      font-size: 32px; }
+    .footer p, .footer a {
+      font-size: 18px; }
     .footer .contact {
-      padding-top: 2.5rem;
+      padding-top: 1.5rem;
       padding-left: 30px;
       padding-right: 0px; }
+      .footer .contact h1 {
+        font-size: 32px; }
+      .footer .contact p {
+        font-size: 18px; }
     .footer .social {
       margin-top: 70px; }
     .footer .hex {
@@ -99,7 +108,9 @@
         height: 206px; }
     .footer .values {
       padding: 0px;
-      margin-top: 70px; } }
+      margin-top: 70px; }
+      .footer .values p {
+        font-size: 18px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */
