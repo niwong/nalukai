@@ -397,7 +397,7 @@ $('.column2').click(function() {
 
 		}
 		if (isFour === true) {
-			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Leilani Maui</h5><ul class=\"studDet\"><li>—Programming—</li><li>Homeschool</li><li>8th Grade</li></ul><p>I really enjoy learning about programming. It was my first experience with coding and I like I have power and control when I use it. Whatever it was that I type is exactly what happens. I can make my own little world in my own way. I love coding and decided to keep pursuing it in programming.</p></div>" );
+			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Leilani Maui</h5><ul class=\"studDet\"><li>—Programming—</li><li>Homeschool</li><li>8th Grade</li></ul><p>I really enjoyed learning programming not only because it was my first experience with coding, but also because it felt like I actually had power or control over something. Whatever it was that I typed is exactly what would happen. I could make my own little world in my own way. I loved it and decided to keep pursuing in programming.</p></div>" );
 			$("#studInfo").before("<div class=\"triangle\"</div>");	
 
 			// centering of triangle
@@ -469,7 +469,7 @@ $('.column2').click(function() {
 
 		}
 		if (isSix === true) {
-			$( "#row6" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Julia Smith</h5><ul class=\"studDet\"><li>—Programming/Photography—</li><li>West Hawaii Explorations Academy</li><li>Junior</li></ul><p>With my first robotics program I was hooked. All it said was: print “Hello World.” It amazed me, this simple piece of code, code I never thought I’d be able to write. Afterwards, I read everything I could about coding. I practiced, practiced, and practiced some more. I got so into it that I taught myself how to program an FRC robot, and started looking into other programming languages. I know now, no matter what I decide to do in my future career, these skills will benefit me</p></div>" );
+			$( "#row6" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Julia Smith</h5><ul class=\"studDet\"><li>—Programming/Photography—</li><li>West Hawaii Explorations Academy</li><li>Junior</li></ul><p> I’m a jack of all trades, I love learning new hobbies and expanding my skill set. This is useful when connecting and communicating with people. However, the one constant interest I have is photography. Capturing emotions and moments in time is my passion. Being a self taught photographer, I’m always looking for ways to optimize my images and manipulate my surrounding to get the best possible outcome.</p></div>" );
 			$("#studInfo").before("<div class=\"triangle\"</div>");	
 
 			// centering of triangle
