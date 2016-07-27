@@ -73,11 +73,19 @@ $mobile-font-size-paragraph: 16px;
 		font-family: $primary-font;
 	}
 
+	.callout > .studDet {
+		list-style-type: none;
+		font-family: $secondary-font;
+		font-size: $mobile-font-size-paragraph;
+	}
+
 	// anecdote
 	.callout > :last-child {
 		font-size: 16px;
 		font-family: $secondary-font;
 	}
+
+
 
 	.triangle {
 		width: 0; 
@@ -114,6 +122,10 @@ $mobile-font-size-paragraph: 16px;
 		.callout > :first-child {
 			font-size: $desktop-font-size-header;
 		}	
+
+		.callout > .studDet {
+			font-size: $desktop-font-size-paragraph;
+		}
 
 		// anecdote
 		.callout > :last-child {
