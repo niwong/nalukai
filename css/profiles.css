@@ -6,31 +6,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: initial; }
-.page-wrap .mission h1 {
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  margin: 20px 0px;
-  letter-spacing: 3px; }
-.page-wrap .mission p {
-  text-align: center;
-  color: #1F3749;
-  font-family: "Avenir", sans-serif;
-  font-size: 16px;
-  margin-bottom: 20px; }
-  .sline .mission h1 {
-  color: #1F3749;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  margin: 20px 0px;
-  letter-spacing: 3px; }
-  .sline {
-  background-color: #1F3749;}
-  /* page desc logo */
-  #img1 {
-  display:none; }
 
 /* Mobile first */
 .page-wrap {
@@ -56,6 +31,10 @@
   .page-wrap .callout > :first-child {
     font-size: 28px;
     font-family: "Montserrat", sans-serif; }
+  .page-wrap .callout > .studDet {
+    list-style-type: none;
+    font-family: "Avenir", sans-serif;
+    font-size: 16px; }
   .page-wrap .callout > :last-child {
     font-size: 16px;
     font-family: "Avenir", sans-serif; }
@@ -69,7 +48,7 @@
 /* Medium and up */
 @media screen and (min-width: 40em) {
   .page-wrap .callout {
-    width: 68.7%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto; }
   .page-wrap .headshotRow {
@@ -80,10 +59,10 @@
     margin-bottom: 100px; }
   .page-wrap .callout > :first-child {
     font-size: 32px; }
+  .page-wrap .callout > .studDet {
+    font-size: 18px; }
   .page-wrap .callout > :last-child {
-    font-size: 18px; } 
-  #img1 {
-    display:block; }}
+    font-size: 18px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */

@@ -21,6 +21,7 @@
     text-align: center;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
+    font-size: 24px;
     margin: 20px 0px;
     letter-spacing: 3px; }
   .page-wrap .mission p {
@@ -65,11 +66,11 @@
         margin-top: 20px;
         margin-bottom: 0px;
         letter-spacing: 2.5px;
-        font-size: 24px; }
+        font-size: 32px; }
       .page-wrap .missionRow .mission p {
         text-align: left;
         letter-spacing: 2.5px;
-        font-size: 14px; }
+        font-size: 18px; }
   .page-wrap .videoRow {
     margin-bottom: 200px;
     width: 80%; }
@@ -85,7 +86,7 @@
       .page-wrap .videoRow .videoDesc p {
         font-family: "Avenir", sans-serif;
         letter-spacing: 2.5px;
-        font-size: 14px; } }
+        font-size: 18px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */

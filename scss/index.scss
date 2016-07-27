@@ -4,6 +4,10 @@ $tertiary-color: #70AFA7;
 $quaternary-color: #95A3AA;
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Avenir', sans-serif;
+$desktop-font-size-header: 32px;
+$mobile-font-size-header: 24px;
+$desktop-font-size-paragraph: 18px;
+$mobile-font-size-paragraph: 16px;
 
 @mixin logo($logo-width, $logo-height) {
 		width: $logo-width;
@@ -26,7 +30,6 @@ $secondary-font: 'Avenir', sans-serif;
    max-width: initial;
 }
 
-
 /* Mobile first */
 .page-wrap {
 	min-height: 100%;
@@ -48,6 +51,7 @@ $secondary-font: 'Avenir', sans-serif;
 			text-align: center;
 			text-transform: uppercase;
 			font-family: $primary-font;
+			font-size: $mobile-font-size-header;
 			margin: 20px 0px;
 			letter-spacing: 3px;
 		}
@@ -55,7 +59,7 @@ $secondary-font: 'Avenir', sans-serif;
 		p {
 			text-align: center;
 			font-family: $secondary-font;
-			font-size: 16px;
+			font-size: $mobile-font-size-paragraph;
 			margin-bottom: 20px;
 		}
 	}
@@ -113,13 +117,13 @@ $secondary-font: 'Avenir', sans-serif;
 					margin-top: 20px;
 					margin-bottom: 0px;
 					letter-spacing: 2.5px;
-					font-size: 24px;
+					font-size: $desktop-font-size-header;
 				}
 
 				p {
 					text-align: left;
 					letter-spacing: 2.5px;
-					font-size: 14px;
+					font-size: $desktop-font-size-paragraph;
 				}
 			}
 		}
@@ -141,13 +145,13 @@ $secondary-font: 'Avenir', sans-serif;
 					font-family: $primary-font;
 					text-align: left;
 					letter-spacing: 3px;
-					font-size: 32px;
+					font-size: $desktop-font-size-header;
 				}
 
 				p {
 					font-family: $secondary-font;
 					letter-spacing: 2.5px;
-					font-size: 14px;
+					font-size: $desktop-font-size-paragraph;
 				}
 				
 			}

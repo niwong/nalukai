@@ -4,6 +4,10 @@ $tertiary-color: #70AFA7;
 $quaternary-color: #95A3AA;
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Avenir', sans-serif;
+$desktop-font-size-header: 32px;
+$mobile-font-size-header: 24px;
+$desktop-font-size-paragraph: 18px;
+$mobile-font-size-paragraph: 16px;
 
 @mixin logo($logo-width, $logo-height) {
 		width: $logo-width;
@@ -69,11 +73,19 @@ $secondary-font: 'Avenir', sans-serif;
 		font-family: $primary-font;
 	}
 
+	.callout > .studDet {
+		list-style-type: none;
+		font-family: $secondary-font;
+		font-size: $mobile-font-size-paragraph;
+	}
+
 	// anecdote
 	.callout > :last-child {
 		font-size: 16px;
 		font-family: $secondary-font;
 	}
+
+
 
 	.triangle {
 		width: 0; 
@@ -89,7 +101,7 @@ $secondary-font: 'Avenir', sans-serif;
 @media screen and (min-width: 40em) {
 	.page-wrap {
 		.callout {
-			width: 68.7%;
+			width: 70%;
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -108,12 +120,16 @@ $secondary-font: 'Avenir', sans-serif;
 
 		// names
 		.callout > :first-child {
-			font-size: 32px;
+			font-size: $desktop-font-size-header;
 		}	
+
+		.callout > .studDet {
+			font-size: $desktop-font-size-paragraph;
+		}
 
 		// anecdote
 		.callout > :last-child {
-			font-size: 18px;
+			font-size: $desktop-font-size-paragraph;
 		}	
 	}
 }
