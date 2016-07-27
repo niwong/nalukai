@@ -37,7 +37,7 @@
   position: absolute;
   background-image: url("../img/nalukaiLogo.png"); }
 .page-wrap .mission h1 {
-  color: #1F3749;
+  color: white;
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -55,10 +55,20 @@
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  letter-spacing:3px;
-}
+  letter-spacing:3px; }
+.sline .mission h1 {
+  color: #1F3749;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0px;
+  letter-spacing: 3px;}
+
+.sline {
+  background-color: #1F3749;}
 
 .line {
+  padding-top:50px;
   padding-left: 50px;
   padding-right: 50px;
 }
