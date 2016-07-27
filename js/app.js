@@ -23,9 +23,8 @@ $('.column1').click(function() {
 
 			// centering of triangle
 			var imgCenterX = 0;
-			var triCenterX = 0;
 
-			function alterPosX(imgCenterX, triCenterX) {
+			function alterPosX(imgCenterX) {
 
 				function imgPos() {
 					var $this = $('#miranda');
@@ -43,8 +42,6 @@ $('.column1').click(function() {
 
 				var imgPaddingString = $('.headshotCont').css('padding-left');
 				var imgPadding = parseInt(imgPaddingString);
-
-				console.log(imgPadding);
 
 				var move = imgCenterX - 12 + rowMargin;
 
@@ -79,6 +76,9 @@ $('.column1').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
 				var move = imgCenterX - 12 + rowMargin;
 
 				$('.triangle').css('margin-left', move);
@@ -111,6 +111,9 @@ $('.column1').click(function() {
 
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
+
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
 
 				var move = imgCenterX - 12 + rowMargin;
 
@@ -145,6 +148,9 @@ $('.column1').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
 				var move = imgCenterX - 12 + rowMargin;
 
 				$('.triangle').css('margin-left', move);
@@ -177,6 +183,9 @@ $('.column1').click(function() {
 
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
+
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
 
 				var move = imgCenterX - 12 + rowMargin;
 
@@ -211,6 +220,9 @@ $('.column1').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
 				var move = imgCenterX - 12 + rowMargin;
 
 				$('.triangle').css('margin-left', move);
@@ -243,6 +255,9 @@ $('.column1').click(function() {
 
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
+
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
 
 				var move = imgCenterX - 12 + rowMargin;
 
@@ -295,7 +310,12 @@ $('.column2').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 3) + 8 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				console.log(imgPadding);
+
+				var move = (imgCenterX * 3) - 12 + rowMargin + (imgPadding * 2);
 
 				$('.triangle').css('margin-left', move);
 
@@ -328,7 +348,10 @@ $('.column2').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 3) + 8 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 3) - 12 + rowMargin + (imgPadding * 2);
 
 				$('.triangle').css('margin-left', move);
 
@@ -361,7 +384,10 @@ $('.column2').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 3) + 8 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 3) - 12 + rowMargin + (imgPadding * 2);
 
 				$('.triangle').css('margin-left', move);
 
@@ -394,7 +420,10 @@ $('.column2').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 3) + 8 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 3) - 12 + rowMargin + (imgPadding * 2);
 
 				$('.triangle').css('margin-left', move);
 
@@ -427,7 +456,10 @@ $('.column2').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 3) + 8 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 3) - 12 + rowMargin + (imgPadding * 2);
 
 				$('.triangle').css('margin-left', move);
 
@@ -460,7 +492,10 @@ $('.column2').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 3) + 8 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 3) - 12 + rowMargin + (imgPadding * 2);
 
 				$('.triangle').css('margin-left', move);
 
@@ -493,7 +528,10 @@ $('.column2').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 3) + 8 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 3) - 12 + rowMargin + (imgPadding * 2);
 
 				$('.triangle').css('margin-left', move);
 
@@ -544,7 +582,10 @@ $('.column3').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 5) + 26 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 5) + rowMargin + (imgPadding * 4) - 12;
 
 				$('.triangle').css('margin-left', move);
 
@@ -577,7 +618,10 @@ $('.column3').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 5) + 26 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 5) + rowMargin + (imgPadding * 4) - 12;
 
 				$('.triangle').css('margin-left', move);
 
@@ -610,7 +654,10 @@ $('.column3').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 5) + 26 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 5) + rowMargin + (imgPadding * 4) - 12;
 
 				$('.triangle').css('margin-left', move);
 
@@ -643,7 +690,10 @@ $('.column3').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 5) + 26 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 5) + rowMargin + (imgPadding * 4) - 12;
 
 				$('.triangle').css('margin-left', move);
 			}
@@ -675,7 +725,10 @@ $('.column3').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 5) + 26 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 5) + rowMargin + (imgPadding * 4) - 12;
 
 				$('.triangle').css('margin-left', move);
 			}
@@ -707,7 +760,10 @@ $('.column3').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 5) + 26 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 5) + rowMargin + (imgPadding * 4) - 12;
 
 				$('.triangle').css('margin-left', move);
 
@@ -740,7 +796,10 @@ $('.column3').click(function() {
 				var rowMarginString = $('.row').css('margin-left');
 				var rowMargin = parseInt(rowMarginString);
 
-				var move = (imgCenterX * 5) + 26 + rowMargin;
+				var imgPaddingString = $('.headshotCont').css('padding-left');
+				var imgPadding = parseInt(imgPaddingString);
+
+				var move = (imgCenterX * 5) + rowMargin + (imgPadding * 4) - 12;
 
 				$('.triangle').css('margin-left', move);
 

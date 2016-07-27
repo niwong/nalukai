@@ -29,16 +29,32 @@ $secondary-font: 'Avenir', sans-serif;
 /* Mobile first */
 
 .page-wrap {
+
+	.hero1 {
+		height: auto;
+		width: 100%;
+		padding: 0;
+		
+		border-bottom: 2px solid $primary-color;
+
+		img {
+			width: 100%;
+		}
+	}
+
 	min-height: 100%;
 
 	.headshotRow {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
 
+	.headshotRow:first-child {
+		margin-top: 20px;
+	}
+
+	.headshotRow:last-child {
 		margin-bottom: 20px;
-
-		/* headshots */
-		.headshotCont {
-			margin-top: 20px;
-		}
 	}
 
 	.callout {
@@ -64,6 +80,14 @@ $secondary-font: 'Avenir', sans-serif;
 			width: 68.7%;
 			margin-left: auto;
 			margin-right: auto;
+		}
+
+		.headshotRow {
+			margin-top: 40px;
+		}
+
+		.headshotRow:first-of-type {
+			margin-top: 80px;
 		}
 
 		.headshotRow:last-child {
