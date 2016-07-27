@@ -19,27 +19,12 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto; }
-  .page-wrap .triangleLeft {
+  .page-wrap .triangle {
     width: 0;
     height: 0;
     border-left: 24px solid transparent;
     border-right: 24px solid transparent;
-    border-bottom: 24px solid rgba(10, 10, 10, 0.25);
-    margin-left: 30px; }
-  .page-wrap .triangleCenter {
-    width: 0;
-    height: 0;
-    border-left: 24px solid transparent;
-    border-right: 24px solid transparent;
-    border-bottom: 24px solid rgba(10, 10, 10, 0.25);
-    margin-left: 160px; }
-  .page-wrap .triangleRight {
-    width: 0;
-    height: 0;
-    border-left: 24px solid transparent;
-    border-right: 24px solid transparent;
-    border-bottom: 24px solid rgba(10, 10, 10, 0.25);
-    margin-left: 290px; }
+    border-bottom: 24px solid rgba(10, 10, 10, 0.25); }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
@@ -47,12 +32,6 @@
     width: 68.7%;
     margin-left: auto;
     margin-right: auto; }
-  .page-wrap .triangleLeft {
-    margin-left: 420px; }
-  .page-wrap .triangleCenter {
-    margin-left: 840px; }
-  .page-wrap .triangleRight {
-    margin-left: 1230px; }
   .page-wrap .headshotRow:last-child {
     margin-bottom: 100px; } }
 /* Medium only */

@@ -47,31 +47,12 @@ $secondary-font: 'Avenir', sans-serif;
 		margin-right: auto;
 	}
 
-	.triangleLeft {
+	.triangle {
 		width: 0; 
 		height: 0; 
 		border-left: 24px solid transparent;
 		border-right: 24px solid transparent;
 		border-bottom: 24px solid rgba(10, 10, 10, 0.25);
-		margin-left: 30px;
-	}
-
-	.triangleCenter {
-		width: 0; 
-		height: 0; 
-		border-left: 24px solid transparent;
-		border-right: 24px solid transparent;
-		border-bottom: 24px solid rgba(10, 10, 10, 0.25);
-		margin-left: 160px;
-	}
-
-	.triangleRight {
-		width: 0; 
-		height: 0; 
-		border-left: 24px solid transparent;
-		border-right: 24px solid transparent;
-		border-bottom: 24px solid rgba(10, 10, 10, 0.25);
-		margin-left: 290px;
 	}
 }
 
@@ -83,18 +64,6 @@ $secondary-font: 'Avenir', sans-serif;
 			width: 68.7%;
 			margin-left: auto;
 			margin-right: auto;
-		}
-
-		.triangleLeft {
-			margin-left: 420px;
-		}
-
-		.triangleCenter {
-			margin-left: 840px;
-		}
-
-		.triangleRight {
-			margin-left: 1230px;
 		}
 
 		.headshotRow:last-child {
