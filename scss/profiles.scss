@@ -63,6 +63,18 @@ $secondary-font: 'Avenir', sans-serif;
 		margin-right: auto;
 	}
 
+	// names
+	.callout > :first-child {
+		font-size: 28px;
+		font-family: $primary-font;
+	}
+
+	// anecdote
+	.callout > :last-child {
+		font-size: 16px;
+		font-family: $secondary-font;
+	}
+
 	.triangle {
 		width: 0; 
 		height: 0; 
@@ -93,6 +105,16 @@ $secondary-font: 'Avenir', sans-serif;
 		.headshotRow:last-child {
 			margin-bottom: 100px;
 		}
+
+		// names
+		.callout > :first-child {
+			font-size: 32px;
+		}	
+
+		// anecdote
+		.callout > :last-child {
+			font-size: 18px;
+		}	
 	}
 }
 

@@ -28,6 +28,12 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto; }
+  .page-wrap .callout > :first-child {
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif; }
+  .page-wrap .callout > :last-child {
+    font-size: 16px;
+    font-family: "Avenir", sans-serif; }
   .page-wrap .triangle {
     width: 0;
     height: 0;
@@ -46,7 +52,11 @@
   .page-wrap .headshotRow:first-of-type {
     margin-top: 80px; }
   .page-wrap .headshotRow:last-child {
-    margin-bottom: 100px; } }
+    margin-bottom: 100px; }
+  .page-wrap .callout > :first-child {
+    font-size: 32px; }
+  .page-wrap .callout > :last-child {
+    font-size: 18px; } }
 /* Medium only */
 /* Large and up */
 /* Large only */
