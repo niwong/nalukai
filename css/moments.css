@@ -68,7 +68,6 @@
   background-color: #1F3749;}
 
 .line {
-  padding-top:50px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -78,7 +77,8 @@
 #img2 {
   display:block;
   padding-left:10px;
-  padding-right:10px;}
+  padding-right:10px;
+  padding-bottom:20px; }
 #img1 {
   display:none; }
 
@@ -125,4 +125,7 @@
       display:none; }
       #img1 {
       display:block; }
+    .line {
+      padding-top:50px;
+    }
   }
