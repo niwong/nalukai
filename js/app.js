@@ -325,7 +325,7 @@ $('.column2').click(function() {
 
 		}
 		if (isTwo === true) {
-			$( "#row2" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Sophia Davis</h5><ul class=\"studDet\"><li>—Programming—</li><li>Kihei Charter School</li><li>Junior</li></ul><p>There’s a picture of me at less than two years old standing on my Uncle’s desk in front of giant old computer monitor, with my little fingers resting on the keyboard.  When I was little, my dad would explain to my sister and I about how all sorts of things worked, from airplanes with cameras on their noses to the tiny little electrons flowing through circuits that light up our modern world. I became obsessed with anything STEM. I’ve continued to pursue that love of technology, creating things, and learning everything I possibly can. My dream is to create a biomedical technologies startup that researches cures for diseases/conditions and implements them using engineering. I used to dream a lot of the future and I often felt like I was born too early.  However, now, I want to work towards helping to build the bright future that I dream about so often.</p></div>" );
+			$( "#row2" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Sophia Davis</h5><ul class=\"studDet\"><li>—Programming—</li><li>Kihei Charter School</li><li>Junior</li></ul><p>When I was little, my dad would explain to my sister and I about how all sorts of things worked, from airplanes with cameras on their noses to the tiny little electrons flowing through circuits that light up our modern world. I became obsessed with anything STEM. I’ve continued to pursue that love of technology, creating things, and learning everything I possibly can. My dream is to create a biomedical technologies startup that researches cures for diseases/conditions and implements them using engineering. I used to dream a lot of the future and I often felt like I was born too early.  However, now, I want to work towards helping to build the bright future that I dream about so often.</p></div>" );
 			$("#studInfo").before("<div class=\"triangle\"</div>");	
 
 			// centering of triangle
@@ -433,7 +433,7 @@ $('.column2').click(function() {
 
 		}
 		if (isFive === true) {
-			$( "#row5" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Ally Nisenoff</h5><ul class=\"studDet\"><li>—Programming/Photography—</li><li>West Hawaii Explorations Academy</li><li>Senior</li></ul><p>With my first robotics program I was hooked. All it said was: print “Hello World.” It amazed me, this simple piece of code, code I never thought I’d be able to write. Afterwards, I read everything I could about coding. I practiced, practiced, and practiced some more. I got so into it that I taught myself how to program an FRC robot, and started looking into other programming languages. I know now, no matter what I decide to do in my future career, these skills will benefit me.</p></div>" );
+			$( "#row5" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Ally Nisenoff</h5><ul class=\"studDet\"><li>—Programming/Photography—</li><li>West Hawaii Explorations Academy</li><li>Senior</li></ul><p>With my first piece of code I was hooked. All it said was: print “Hello World.” It amazed me, I never thought I’d be able to write this piece of code. Afterwards, I read everything I could about coding. I practiced, practiced, and practiced some more. I got so into it that I taught myself how to program an FRC robot and started looking into other programming languages. No matter what I decide to do in my future career, these skills will benefit me.</p></div>" );
 			$("#studInfo").before("<div class=\"triangle\"</div>");	
 
 			// centering of triangle
@@ -667,7 +667,7 @@ $('.column3').click(function() {
 
 		}
 		if (isFour === true) {
-			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Makai Mossman</h5><ul class=\"studDet\"><li>—Design/3D Modeling—</li><li>Kamehameha Maui</li><li>Senior</li></ul><p>I absolutely love to design things. Ever since I could, I've been drawing out things I'd love to build. However, I don't have the know-how to actually build the things I've drawn so I want to pursue a career as a mechanical engineer so I can finally build one of my latest designs.</p></div>" );
+			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5 class=\"names\">Makai Mossman</h5><ul class=\"studDet\"><li>—Design/3D Modeling—</li><li>Kamehameha Maui</li><li>Senior</li></ul><p>I absolutely love to design things. Ever since kindergarten, I've been drawing out things I'd love to build. However, I don't have the know-how to actually build the things I've drawn so I want to pursue a career as a mechanical engineer so I can finally build one of my latest designs. Lately I’ve been obsessed with tanks! I REALLY want to be able to build and ride in my very own tank.</p></div>" );
 			$("#studInfo").before("<div class=\"triangle\"</div>");	
 
 			// centering of triangle
