@@ -325,7 +325,7 @@ $('.column2').click(function() {
 
 		}
 		if (isTwo === true) {
-			$( "#row2" ).after("<div class=\"callout\" id=\"studInfo\"><h5>Sophia Davis</h5><p>There’s a picture of me at less than two years old standing on my Uncle’s desk in front of giant old computer monitor, with my little fingers resting on the keyboard.When I was little, my dad would explain to my sister and I about how all sorts of things worked, from airplanes with cameras on their noses to the tiny little electrons flowing through circuits that light up our modern world. I became obsessed with anything STEM. I’ve continued to pursue that love of technology, creating things, and learning everything I possibly can. My dream is to create biomedical technologies that researches cures for diseases/conditions and implements them using engineering I used to dream a lot of the future and I often felt like I was born too early. However, now, I want to work towards helping to build the bright future that I dream about so often.</p></div>" );
+			$( "#row2" ).after("<div class=\"callout\" id=\"studInfo\"><h5>Sophia Davis</h5><p>There’s a picture of me at less than two years old standing on my Uncle’s desk in front of giant old computer monitor, with my little fingers resting on the keyboard.When I was little, my dad would explain to my sister and I about how all sorts of things worked, from airplanes with cameras on their noses to the tiny little electrons flowing through circuits that light up our modern world. I became obsessed with anything STEM. I’ve continued to pursue that love of technology, creating things, and learning everything I possibly can. My dream is to create a biomedical technologies startup that researches cures for diseases/conditions and implements them using engineering. I used to dream a lot of the future and I often felt like I was born too early.  However, now, I want to work towards helping to build the bright future that I dream about so often.</p></div>" );
 			$("#studInfo").before("<div class=\"triangle\"</div>");	
 
 			// centering of triangle
@@ -667,7 +667,7 @@ $('.column3').click(function() {
 
 		}
 		if (isFour === true) {
-			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5>Makai Mossman</h5><p>I absolutely love to design things. Ever since I could, I've been drawing out things I'd love to build. However, I don't have know how to actually build the things I've drawn so I want to pursue a career as a mechanical engineer so I can finally build one of my latest designs.</p></div>" );
+			$( "#row4" ).after("<div class=\"callout\" id=\"studInfo\"><h5>Makai Mossman</h5><p>I absolutely love to design things. Ever since I could, I've been drawing out things I'd love to build. However, I don't have the know-how to actually build the things I've drawn so I want to pursue a career as a mechanical engineer so I can finally build one of my latest designs.</p></div>" );
 			$("#studInfo").before("<div class=\"triangle\"</div>");	
 
 			// centering of triangle
