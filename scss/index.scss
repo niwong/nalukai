@@ -65,10 +65,10 @@ $mobile-font-size-paragraph: 16px;
 	}
 
 	.video {
-		// height: 200px;
-		position: relative;
 		padding: 0px;
+		margin: 0;
 
+		// height: 200px;
 
 		// .playButton {
 		// 	width: 100px;
@@ -134,7 +134,8 @@ $mobile-font-size-paragraph: 16px;
 			width: 80%;
 
 			.video {
-				height: 300px;
+				height: 488px !important;
+				width: 100%;
 			}
 
 			.videoDesc {

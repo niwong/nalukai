@@ -30,8 +30,8 @@
     font-size: 16px;
     margin-bottom: 20px; }
   .page-wrap .video {
-    position: relative;
-    padding: 0px; }
+    padding: 0px;
+    margin: 0; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
@@ -55,7 +55,8 @@
     margin-bottom: 200px;
     width: 80%; }
     .page-wrap .videoRow .video {
-      height: 300px; }
+      height: 488px !important;
+      width: 100%; }
     .page-wrap .videoRow .videoDesc {
       padding-left: 40px; }
       .page-wrap .videoRow .videoDesc h1 {
