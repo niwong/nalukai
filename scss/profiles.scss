@@ -34,6 +34,8 @@ $mobile-font-size-paragraph: 16px;
 
 .page-wrap {
 
+	min-height: 100%;
+
 	.hero1 {
 		height: auto;
 		width: 100%;
@@ -46,7 +48,22 @@ $mobile-font-size-paragraph: 16px;
 		}
 	}
 
-	min-height: 100%;
+	.help {
+
+		margin-top: 40px;
+
+		h1 {
+			text-align: center;
+			font-size: $mobile-font-size-header;
+			font-family: $primary-font;
+		}
+
+		p {
+			text-align: center;
+			font-size: $mobile-font-size-paragraph;
+			font-family: $secondary-font;
+		}
+	}
 
 	.headshotRow {
 		margin-top: 20px;
@@ -85,8 +102,6 @@ $mobile-font-size-paragraph: 16px;
 		font-family: $secondary-font;
 	}
 
-
-
 	.triangle {
 		width: 0; 
 		height: 0; 
@@ -100,6 +115,17 @@ $mobile-font-size-paragraph: 16px;
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	.page-wrap {
+
+		.help {
+			h1 {
+				font-size: $desktop-font-size-header;
+			}
+			
+			p {
+				font-size: $desktop-font-size-paragraph;
+			}
+		}
+
 		.callout {
 			width: 70%;
 			margin-left: auto;

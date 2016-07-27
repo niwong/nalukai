@@ -17,6 +17,16 @@
     border-bottom: 2px solid #1e364a; }
     .page-wrap .hero1 img {
       width: 100%; }
+  .page-wrap .help {
+    margin-top: 40px; }
+    .page-wrap .help h1 {
+      text-align: center;
+      font-size: 24px;
+      font-family: "Montserrat", sans-serif; }
+    .page-wrap .help p {
+      text-align: center;
+      font-size: 16px;
+      font-family: "Avenir", sans-serif; }
   .page-wrap .headshotRow {
     margin-top: 20px;
     margin-bottom: 10px; }
@@ -47,6 +57,10 @@
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+  .page-wrap .help h1 {
+    font-size: 32px; }
+  .page-wrap .help p {
+    font-size: 18px; }
   .page-wrap .callout {
     width: 70%;
     margin-left: auto;
