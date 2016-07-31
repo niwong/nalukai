@@ -810,3 +810,4 @@ $('.column3').click(function() {
 		}
 	}
 });
+

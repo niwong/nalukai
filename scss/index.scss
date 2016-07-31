@@ -63,40 +63,6 @@ $mobile-font-size-paragraph: 16px;
 			margin-bottom: 20px;
 		}
 	}
-
-	.video {
-		padding: 0px;
-		margin: 0;
-
-		// height: 200px;
-
-		// .playButton {
-		// 	width: 100px;
-		// 	height: 100px;
-		// 	border-radius: 100%;
-		// 	border: 2px solid white;
-
-		// 	position: absolute;
-		// 	left: 50%;
-		// 	top: 50%;
-		// 	transform: translate(-50%, -50%);
-
-
-		// 	.play {
-		// 		position: absolute;
-		// 		left: 55%;
-		// 		top: 50%;
-		// 		transform: translate(-50%, -50%);
-
-		// 		width: 0px;
-		// 		border-left: 32px solid #fff;
-		// 		border-top: 24px solid transparent;
-		// 		border-bottom: 24px solid transparent;
-		// 	}
-
-		// }
-
-	}
 }
 
 /* Medium and up */
@@ -130,16 +96,13 @@ $mobile-font-size-paragraph: 16px;
 
 		.videoRow {
 
-			margin-bottom: 200px;
-			width: 80%;
-
-			.video {
-				height: 488px !important;
-				width: 100%;
+			.flex-video {
+				margin-bottom: 40px;
 			}
 
 			.videoDesc {
 
+				margin-bottom: 40px;
 				padding-left: 40px;
 
 				h1 {
@@ -161,11 +124,21 @@ $mobile-font-size-paragraph: 16px;
 }
 
 /* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
 
 /* Large and up */
-@media screen and (min-width: 64em) {}
+@media screen and (min-width: 64em) {
+
+
+	.page-wrap {
+		.videoRow {
+			.videoDesc {
+				margin-bottom: 125px;
+			}
+		}
+	}
+
+}
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
