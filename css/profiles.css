@@ -71,6 +71,86 @@
     margin-top: 80px; }
   .page-wrap .headshotRow:last-child {
     margin-bottom: 100px; }
+  .page-wrap .imgWrap {
+    position: relative;
+    height: 100%;
+    width: 100%; }
+  .page-wrap .imgDesc {
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 206, 190, 0.7);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    -o-transition: visibility .3s ease-out, visibility .3s ease-in;
+    -ms-transition: visibility .3s ease-out, visibility .3s ease-in;
+    -moz-transition: visibility .3s ease-out, visibility .3s ease-in;
+    -webkit-transition: visibility .3s ease-out, visibility .3s ease-in;
+    /* ...and now for the proper property */
+    transition: visibility .3s ease-out, visibility .3s ease-in;
+    -o-transition: opacity .3s ease-out, opacity .3s ease-in;
+    -ms-transition: opacity .3s ease-out, opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-out, opacity .3s ease-in;
+    -webkit-transition: opacity .3s ease-out, opacity .3s ease-in;
+    /* ...and now for the proper property */
+    transition: opacity .3s ease-out, opacity .3s ease-in; }
+    .page-wrap .imgDesc h1 {
+      margin-top: 185px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      padding-left: 20px;
+      padding-top: 20px;
+      margin-bottom: 0px; }
+    .page-wrap .imgDesc h2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      padding-left: 20px;
+      margin-bottom: 0px; }
+  .page-wrap .imgDescLong {
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 206, 190, 0.7);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    -o-transition: visibility .3s ease-out, visibility .3s ease-in;
+    -ms-transition: visibility .3s ease-out, visibility .3s ease-in;
+    -moz-transition: visibility .3s ease-out, visibility .3s ease-in;
+    -webkit-transition: visibility .3s ease-out, visibility .3s ease-in;
+    /* ...and now for the proper property */
+    transition: visibility .3s ease-out, visibility .3s ease-in;
+    -o-transition: opacity .3s ease-out, opacity .3s ease-in;
+    -ms-transition: opacity .3s ease-out, opacity .3s ease-in;
+    -moz-transition: opacity .3s ease-out, opacity .3s ease-in;
+    -webkit-transition: opacity .3s ease-out, opacity .3s ease-in;
+    /* ...and now for the proper property */
+    transition: opacity .3s ease-out, opacity .3s ease-in; }
+    .page-wrap .imgDescLong h1 {
+      margin-top: 140px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      padding-left: 20px;
+      padding-top: 20px;
+      margin-bottom: 0px; }
+    .page-wrap .imgDescLong h2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      padding-left: 20px;
+      margin-bottom: 0px; }
+  .page-wrap .imgWrap:hover > .imgDesc {
+    visibility: visible;
+    opacity: 1; }
+  .page-wrap .imgWrap:hover > .imgDescLong {
+    visibility: visible;
+    opacity: 1; }
   .page-wrap .callout > :first-child {
     font-size: 32px; }
   .page-wrap .callout > .studDet {

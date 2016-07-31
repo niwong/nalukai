@@ -144,6 +144,109 @@ $mobile-font-size-paragraph: 16px;
 			margin-bottom: 100px;
 		}
 
+
+		.imgWrap {
+			position: relative;
+			height: 100%;
+			width: 100%;
+		}
+
+		.imgDesc {
+			margin: 0px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		  	background: rgba(128, 206, 190, 0.70);
+			color: #fff;
+
+			visibility: hidden;
+			opacity: 0;
+
+			-o-transition:visibility .3s ease-out, visibility .3s ease-in;
+			-ms-transition:visibility .3s ease-out, visibility .3s ease-in;
+			-moz-transition:visibility .3s ease-out, visibility .3s ease-in;
+			-webkit-transition:visibility .3s ease-out, visibility .3s ease-in;
+			/* ...and now for the proper property */
+			transition:visibility .3s ease-out, visibility .3s ease-in;
+			-o-transition:opacity .3s ease-out, opacity .3s ease-in;
+			-ms-transition:opacity .3s ease-out, opacity .3s ease-in;
+			-moz-transition:opacity .3s ease-out, opacity .3s ease-in;
+			-webkit-transition:opacity .3s ease-out, opacity .3s ease-in;
+			/* ...and now for the proper property */
+			transition:opacity .3s ease-out, opacity .3s ease-in;
+
+			h1 {
+				margin-top: 185px;
+				font-family: $primary-font;
+				font-size: $desktop-font-size-header;
+				padding-left: 20px;
+				padding-top: 20px;
+				margin-bottom: 0px;
+			}
+
+			h2 {
+				font-family: $primary-font;
+				font-size: 24px;
+				padding-left: 20px;
+				margin-bottom: 0px;
+			}
+		}
+
+		.imgDescLong {
+			margin: 0px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		  	background: rgba(128, 206, 190, 0.70);
+			color: #fff;
+
+			visibility: hidden;
+			opacity: 0;
+
+			-o-transition:visibility .3s ease-out, visibility .3s ease-in;
+			-ms-transition:visibility .3s ease-out, visibility .3s ease-in;
+			-moz-transition:visibility .3s ease-out, visibility .3s ease-in;
+			-webkit-transition:visibility .3s ease-out, visibility .3s ease-in;
+			/* ...and now for the proper property */
+			transition:visibility .3s ease-out, visibility .3s ease-in;
+			-o-transition:opacity .3s ease-out, opacity .3s ease-in;
+			-ms-transition:opacity .3s ease-out, opacity .3s ease-in;
+			-moz-transition:opacity .3s ease-out, opacity .3s ease-in;
+			-webkit-transition:opacity .3s ease-out, opacity .3s ease-in;
+			/* ...and now for the proper property */
+			transition:opacity .3s ease-out, opacity .3s ease-in;
+
+			h1 {
+				margin-top: 140px;
+				font-family: $primary-font;
+				font-size: $desktop-font-size-header;
+				padding-left: 20px;
+				padding-top: 20px;
+				margin-bottom: 0px;
+			}
+
+			h2 {
+				font-family: $primary-font;
+				font-size: 24px;
+				padding-left: 20px;
+				margin-bottom: 0px;
+			}
+		}
+
+		.imgWrap:hover > .imgDesc {
+			visibility: visible;
+			opacity: 1;
+		}
+
+		.imgWrap:hover > .imgDescLong {
+			visibility: visible;
+			opacity: 1;
+		}
+
 		// names
 		.callout > :first-child {
 			font-size: $desktop-font-size-header;
